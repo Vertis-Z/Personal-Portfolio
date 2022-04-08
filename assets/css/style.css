@@ -1,11 +1,11 @@
-:root {
-    --background-color: 
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 a:link {
@@ -194,13 +194,3 @@ footer ul li a:hover {
         display: grid;
     }
 }
-
-/* @media screen and (max-width: 768px) {
-    .about-me h2 {
-        font-size: 58px;
-    }
-}
-
-@media screen and (max-width: 575px) {
-
-} */
